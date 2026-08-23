@@ -13,7 +13,7 @@ class PostAdmin(admin.ModelAdmin):
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    list_display = ('text', 'created_at', 'author', 'post')
+    list_display = ('text', 'created', 'author', 'post')
 
 
 @admin.register(Group)
